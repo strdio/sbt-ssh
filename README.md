@@ -2,6 +2,8 @@ sbt-ssh
 ============================================
 Ssh client for sbt which integrates for JASSH (https://github.com/dacr/jassh)
 
+[ ![Download](https://api.bintray.com/packages/strdio/sbt-plugins/sbt-ssh/images/download.svg) ](https://bintray.com/strdio/sbt-plugins/sbt-ssh/_latestVersion)
+
 ## Installation ##
 This plugin uses JASSH v0.10.0+ and requires at least **Java 8**.
 
@@ -16,7 +18,6 @@ sshOptions := sshOptions.value.copy(
   username = "me")
   
 customTask := {
-  val log = streams.value.log
   val session = sshSession.value
   
   session.withSsh { ssh =>
