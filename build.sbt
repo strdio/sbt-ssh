@@ -1,6 +1,6 @@
 name := "sbt-ssh"
 organization := "io.strd.build"
-version := "0.1.0-beta1"
+version := "0.1.0"
 description := "sbt integration for JASSH (https://github.com/dacr/jassh)"
 licenses += ("Apache-2.0", url("https://www.apache.org/licenses/LICENSE-2.0.html"))
 
